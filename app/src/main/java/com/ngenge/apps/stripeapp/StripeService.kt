@@ -16,7 +16,7 @@ interface StripeService {
     companion object {
 
         //Replace this with your server endpoint
-        private const val BASE_ENDPOINT = "YOUR_SERVER"
+        private const val BASE_ENDPOINT = "YOUR_SERVER_ENDPOINT"
 
         private fun create(httpUrl: String): StripeService {
             val okHttpClient = OkHttpClient.Builder()
